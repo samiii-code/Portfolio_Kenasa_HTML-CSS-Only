@@ -8,7 +8,7 @@ This project showcases who I am, my skills, and the projects I’ve built as a *
 ---
 ## 🚀 Live Demo
 👉 Visit my portfolio here:  
-https://samiii-code.github.io/Portfolio_Kenasa_HTML-CSS-Only/
+[Portfolio_Kenasa_HTML-CSS-Only](https://samiii-code.github.io/Portfolio_Kenasa_HTML-CSS-Only/)
 
 ---
 
