@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenasa Fayera - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Abstract Organic Background Shapes -->
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <section class="hero-section">
+        <!-- Main Content -->
+        <main class="portfolio-container">
+        <!-- Profile Image Section -->
+        <div class="profile-section">
+            <div class="image-wrapper">
+                <img src="ks.png" alt="Kenasa Fayera">
+            </div>
+        </div>
+        
+        <!-- Text Content Section -->
+        <div class="content-section">
+            <h1 class="greeting">Hello, I'm <span class="name">Kenasa Fayera</span> <span class="wave">👋</span></h1>
+            
+            <div class="typing-container">
+                <span class="typing-text">Web Developer | Ethical Hacker | Student</span>
+            </div>
+            
+            <p class="intro">
+                I'm a Software Engineering student at ASTU and a passionate full stack developer who enjoys building modern web applications and solving real-world problems.
+            </p>
+            
+            <div class="social-links">
+                <a href="https://www.instagram.com/ks_f0101" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://t.me/abcde12345ks" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                <a href="https://github.com/samiii-code" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:kenasafayera1@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            
+            <a href="#" class="cta-button">Learn More</a>
+        </div>
+    </main>
+
+        <!-- Scroll Down Indicator -->
+        <div class="scroll-indicator">
+            <a href="#skills"><i class="fas fa-chevron-down bouncing-arrow"></i></a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">My <span class="neon-text">Skills</span></h2>
+        
+        <div class="skills-container">
+            <!-- Programming Languages -->
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+                </div>
+            </div>
+            
+            <!-- Tools & Platforms -->
+            <div class="skill-category">
+                <h3>Tools & Platforms</h3>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Featured <span class="neon-text-alt">Projects</span></h2>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card neon-card">
+                <div class="project-content">
+                    <h3 class="project-title glitch-effect" data-text="Student Registration Web App">Student Registration Web App</h3>
+                    <p class="project-desc">
+                        A simple Java Servlet-based web application that allows users to register students, store details in a database, and view all registered students in a table. Demonstrates Java Servlets, JSP, JDBC, MySQL using NetBeans + Apache Tomcat.
+                    </p>
+                    <div class="project-tags">
+                        <span>Java Servlets</span>
+                        <span>JSP</span>
+                        <span>JDBC</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/samiii-code/Student-Registration-Web-Application" target="_blank" class="cyber-btn">
+                        <i class="fab fa-github"></i> View Repository
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card neon-card">
+                <div class="project-content">
+                    <h3 class="project-title glitch-effect" data-text="School Management (MEAN + RBAC)">School Management (MEAN + RBAC)</h3>
+                    <p class="project-desc">
+                        A compact school management system built with MongoDB, Express, Angular, and Node.js. Implements JWT authentication, role-based access control (Admin/Teacher/Student), CRUD operations for users, subjects, grades, and marks, and computes letter grades from numeric marks.
+                    </p>
+                    <div class="project-tags">
+                        <span>MongoDB</span>
+                        <span>Express</span>
+                        <span>Angular</span>
+                        <span>Node.js</span>
+                        <span>JWT</span>
+                        <span>RBAC</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/samiii-code/Simple-School-Management-System" target="_blank" class="cyber-btn">
+                        <i class="fab fa-github"></i> View Repository
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
